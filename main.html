@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Flights</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    
+
+    <div class="d1">
+        <h1>
+            FLIT TICKT.COM
+        </h1>
+    </div>
+    <div class="container">
+        <h1>Search Flights</h1>
+        <form action="search-results.html">
+            <h2 class="section-title">Departure Flight</h2>
+            <label for="departure-airport">Departure Airport</label>
+            <input type="text" id="departure-airport" name="departure-airport" required>
+            
+            <label for="arrival-airport">Arrival Airport</label>
+            <input type="text" id="arrival-airport" name="arrival-airport" required>
+
+            <label for="departure-date">Departure Date</label>
+            <input type="date" id="departure-date" name="departure-date" required>
+            
+            <h2 class="section-title">Return Flight</h2>
+            <label for="return-departure-airport">Departure Airport</label>
+            <input type="text" id="return-departure-airport" name="return-departure-airport" required>
+           
+            <label for="return-arrival-airport">Arrival Airport</label>
+            <input type="text" id="return-arrival-airport" name="return-arrival-airport" required>
+             
+            <label for="return-departure-date">Departure Date</label>
+            <input type="date" id="return-departure-date" name="return-departure-date" required>
+    
+            
+
+            <button type="submit">Search Flights</button>
+        </form>
+    </div>
+</body>
+</html>

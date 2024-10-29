@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <div class="d1">
+        <h1>
+            FLIT TICKT.COM
+        </h1>
+    </div>
+    <div class="container">
+        <h1>Payment</h1>
+        <form action="confirmation.html">
+            <label for="cost">Cost</label>
+            <input type="text" id="cost" name="cost" value="$500" readonly>
+            
+            <label for="card-number">Card Number</label>
+            <input type="text" id="card-number" name="card-number" required>
+            
+            <label for="expiry">Expiry Date</label>
+            <input type="text" id="expiry" name="expiry" required>
+            
+            <label for="cvv">CVV</label>
+            <input type="text" id="cvv" name="cvv" required>
+            
+            <script type="text/javascript" src="ex1.js"></script>
+            <button onclick="fun1()">Done</button>
+        </form>
+    </div>
+</body>
+</html>
